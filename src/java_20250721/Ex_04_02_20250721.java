@@ -16,7 +16,7 @@ public class Ex_04_02_20250721 {
 			
 		}
 		
-		System.out.println("홀수 갯수 : " + evenCount + "개");
+		System.out.println("홀수 갯수 : " + oddCount + "개");
 		System.out.println("짝수 갯수 : " + evenCount + "개");
 	}
 
