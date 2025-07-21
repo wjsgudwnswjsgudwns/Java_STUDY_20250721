@@ -6,20 +6,15 @@ public class Ex_04_20250721 {
 		// TODO Auto-generated method stub
 	
 		int odd =0;
-		
-		for (int i=1;i<=100;i++) {
-			odd = 0;
-			if(i%2==1) {
-			}
-			odd = (i+1)/2;
-		}
-		
 		int even=0;
+		
 		for (int i=1;i<=100;i++) {
-			even =0;
-			if(i%2==0) {
+			if(i%2==1) {	
+				odd = (i+1)/2;
+			}	else  {	
+				even = i/2;
 			}
-			even = i/2;
+			
 		}
 		
 		System.out.println("홀수 갯수 : " + odd + "개");
