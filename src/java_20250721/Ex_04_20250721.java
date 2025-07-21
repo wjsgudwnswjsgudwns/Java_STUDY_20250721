@@ -11,7 +11,7 @@ public class Ex_04_20250721 {
 			odd = 0;
 			if(i%2==1) {
 			}
-			odd = (odd+i)/2;
+			odd = (i+1)/2;
 		}
 		
 		int even=0;
