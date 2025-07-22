@@ -11,7 +11,8 @@ public class Ex_01_20250721 {
 			avg += sum;
 		}
 		
-		System.out.println("평균 : "+avg/arr.length);	// 합계/길이
+		System.out.println("평균 : "+avg/(double) arr.length);	
+// 합계/길이 | 소숫점이 날라갈것을 생각해서 실수로 강제 형변환을 해야함. 나눗셈 할때 꼭 기억하자.
 	}
 
 }

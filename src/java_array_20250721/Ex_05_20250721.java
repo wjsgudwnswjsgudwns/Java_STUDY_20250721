@@ -8,7 +8,7 @@ public class Ex_05_20250721 {
 		
 		int times=1; // 모든 원소를 곱할거기 때문에 초기화를 1로 지정
 		for(int i=0;i<arr.length;i++) {
-			times = times * arr[i];
+			times *= arr[i];
 		}
 		System.out.println(times);		// 모든 원소 곱
 	}
